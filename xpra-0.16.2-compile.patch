@@ -17,4 +17,4 @@
 +                **pkgconfig("py3cairo")
                  ))
  
- add_packages("xpra.codecs.argb")
+ if client_ENABLED or server_ENABLED:
