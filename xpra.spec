@@ -1,7 +1,7 @@
 Summary:	Persistent remote applications for X
 Name:		xpra
 Version:	0.17.1
-Release:	0.1
+Release:	0.2
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://xpra.org/
@@ -17,22 +17,14 @@ BuildRequires:	pkgconfig(xkbfile)
 BuildRequires:	pkgconfig(xtst)
 BuildRequires:	pkgconfig(pygobject-2.0)
 BuildRequires:	pkgconfig(pygtk-2.0)
-BuildRequires:	typelib(GObject)
-BuildRequires:	typelib(Gdk)
-BuildRequires:	typelib(GdkPixbuf)
-BuildRequires:	typelib(GdkX11)
-BuildRequires:	typelib(Gtk) = 3.0
-BuildRequires:	typelib(Notify)
-Requires:	typelib(GObject)
-Requires:	typelib(Gdk)
-Requires:	typelib(GdkPixbuf)
-Requires:	typelib(GdkX11)
-Requires:	typelib(Gtk) = 3.0
-Requires:	typelib(Notify)
+Requires:	pygtk2.0
 Requires:	x11-tools
 Requires:	x11-server-xvfb
 Requires:	python-imaging
 Requires:	python-dbus
+Requires:	python-opencv
+Requires:	python-lzo
+Requires:	python-opengl
 
 %description
 Xpra gives you "persistent remote applications" for X. That is, unlike normal
