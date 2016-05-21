@@ -40,6 +40,9 @@ for remote X apps.
 %setup -q
 %apply_patches
 
+# fix check of python imaging version
+sed -i 's/PIL.PILLOW_VERSION/Image.VERSION/' xpra/codecs/pillow/{encode,decode,__init__}.py
+
 %build
 python setup.py build --without-enc_x264 build_ext --libraries X11 build_ext -lm
 
