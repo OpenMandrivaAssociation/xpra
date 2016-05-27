@@ -1,7 +1,7 @@
 Summary:	Persistent remote applications for X
 Name:		xpra
 Version:	0.17.1
-Release:	0.2
+Release:	0.3
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://xpra.org/
@@ -25,6 +25,7 @@ Requires:	python-dbus
 Requires:	python-opencv
 Requires:	python-lzo
 Requires:	python-opengl
+Requires:	python-pycrypto
 
 %description
 Xpra gives you "persistent remote applications" for X. That is, unlike normal
