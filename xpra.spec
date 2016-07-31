@@ -22,6 +22,7 @@ BuildRequires:	typelib(GdkPixbuf)
 BuildRequires:	typelib(GdkX11)
 BuildRequires:	typelib(Gtk) = 3.0
 BuildRequires:	typelib(Notify)
+BuildRequires:	x11-server-xorg
 Requires(pre,postun):	rpm-helper
 Requires:	typelib(GObject)
 Requires:	typelib(Gdk)
