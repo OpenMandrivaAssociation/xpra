@@ -1,6 +1,6 @@
 Summary:	Persistent remote applications for X
 Name:		xpra
-Version:	0.17.3
+Version:	0.17.4
 Release:	1
 License:	GPLv2+
 Group:		Networking/Other
@@ -22,6 +22,7 @@ BuildRequires:	typelib(GdkPixbuf)
 BuildRequires:	typelib(GdkX11)
 BuildRequires:	typelib(Gtk) = 3.0
 BuildRequires:	typelib(Notify)
+Requires(pre,postun):	rpm-helper
 Requires:	typelib(GObject)
 Requires:	typelib(Gdk)
 Requires:	typelib(GdkPixbuf)
@@ -42,6 +43,12 @@ And unlike VNC or RDP, xpra is for remote applications, not remote desktops --
 individual applications show up as individual windows on your screen, managed
 by your window manager. They're not trapped in a box. So basically it's screen
 for remote X apps.
+
+%pre
+%_pre_groupadd xpra
+
+%postun
+%_postun_groupdel xpra
 
 %prep
 %setup -q
