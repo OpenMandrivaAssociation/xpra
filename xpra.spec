@@ -12,6 +12,7 @@ BuildRequires:	python-cython
 BuildRequires:	pkgconfig(python3)
 BuildRequires:	pkgconfig(py3cairo)
 BuildRequires:	pkgconfig(pycairo)
+BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libswscale)
 BuildRequires:	pkgconfig(xkbfile)
@@ -22,6 +23,7 @@ BuildRequires:	typelib(GdkPixbuf)
 BuildRequires:	typelib(GdkX11)
 BuildRequires:	typelib(Gtk) = 3.0
 BuildRequires:	typelib(Notify)
+BuildRequires:  pkgconfig(vpx)
 BuildRequires:	x11-server-xorg
 Requires(pre,postun):	rpm-helper
 Requires:	typelib(GObject)
