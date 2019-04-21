@@ -30,6 +30,7 @@ Requires:	typelib(GdkPixbuf)
 Requires:	typelib(GdkX11)
 Requires:	typelib(Gtk) = 3.0
 Requires:	typelib(Notify)
+Requires:	typelib(cdio18)
 Requires:	x11-tools
 Requires:	x11-server-xvfb
 Requires:	python-imaging
