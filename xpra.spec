@@ -6,7 +6,6 @@ License:	GPLv2+
 Group:		Networking/Other
 URL:		http://xpra.org/
 Source0:	http://xpra.org/src/%{name}-%{version}.tar.xz
-Patch0:		xpra-0.16.2-compile.patch
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
 BuildRequires:	pkgconfig(python3)
