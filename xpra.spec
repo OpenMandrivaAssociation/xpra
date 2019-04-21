@@ -16,13 +16,14 @@ BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libswscale)
 BuildRequires:	pkgconfig(xkbfile)
 BuildRequires:	pkgconfig(xtst)
+BuildRequires:  pkgconfig(vpx)
+BuildRequires:  pkgconfig(x11)
 BuildRequires:	typelib(GObject)
 BuildRequires:	typelib(Gdk)
 BuildRequires:	typelib(GdkPixbuf)
 BuildRequires:	typelib(GdkX11)
 BuildRequires:	typelib(Gtk) = 3.0
 BuildRequires:	typelib(Notify)
-BuildRequires:  pkgconfig(vpx)
 BuildRequires:	x11-server-xorg
 Requires(pre,postun):	rpm-helper
 Requires:	typelib(GObject)
