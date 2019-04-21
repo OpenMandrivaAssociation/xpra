@@ -53,7 +53,6 @@ for remote X apps.
 
 %prep
 %setup -q
-%autopatch -p[01]
 
 %build
 python setup.py build --without-enc_x264 build_ext --libraries X11
