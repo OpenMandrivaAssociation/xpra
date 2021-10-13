@@ -1,16 +1,16 @@
 Summary:	Persistent remote applications for X
 Name:		xpra
 Version:	2.5.1
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://xpra.org/
 Source0:	http://xpra.org/src/%{name}-%{version}.tar.xz
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
-BuildRequires:	pkgconfig(python3)
+BuildRequires:	pkgconfig(python)
 BuildRequires:	pkgconfig(py3cairo)
-BuildRequires:	pkgconfig(pycairo)
+#BuildRequires:	pkgconfig(pycairo)
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(libswscale)
