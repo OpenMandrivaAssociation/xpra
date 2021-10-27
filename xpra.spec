@@ -1,11 +1,11 @@
 Summary:	Persistent remote applications for X
 Name:		xpra
-Version:	3.1.2
+Version:	4.2.3
 Release:	1
 License:	GPLv2+
 Group:		Networking/Other
 URL:		http://xpra.org/
-Source0:	http://xpra.org/src/%{name}-%{version}.tar.xz
+Source0:	http://xpra.org/src/%{name}-%{version}.tar.gz
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
 BuildRequires:	pkgconfig(python)
