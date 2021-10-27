@@ -1,3 +1,5 @@
+%global optflags %{optflags} -fuse-ld=gold
+
 Summary:	Persistent remote applications for X
 Name:		xpra
 Version:	4.2.3
