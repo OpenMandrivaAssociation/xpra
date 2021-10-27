@@ -58,6 +58,8 @@ for remote X apps.
 %setup -q
 
 %build
+export CC=gcc
+export CXX=g++
 python setup.py build
 
 %install
