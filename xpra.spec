@@ -56,7 +56,7 @@ for remote X apps.
 %setup -q
 
 %build
-python setup.py build --optimize=1 --skip-build
+python setup.py build
 
 %install
 python setup.py install -O1  --prefix /usr --skip-build --root %{buildroot}
