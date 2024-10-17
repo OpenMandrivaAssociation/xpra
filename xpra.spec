@@ -4,7 +4,7 @@ Version:	2.5.1
 Release:	3
 License:	GPLv2+
 Group:		Networking/Other
-URL:		http://xpra.org/
+URL:		https://xpra.org/
 Source0:	http://xpra.org/src/%{name}-%{version}.tar.xz
 BuildRequires:	python-setuptools
 BuildRequires:	python-cython
